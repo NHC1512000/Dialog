@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dialog1"
+        android:text="Dialog message"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog2"
+        android:text="Dialog checkbox"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog3"
+        android:text="Dialog seekBar"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog4"
+        android:text="Dialog set number"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog5"
+        android:text="Dialog time"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/dialog6"
+        android:text="Dialog Date"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
